@@ -17,8 +17,8 @@ This project keeps the search loop intentionally small:
 - `scripts/init_run.py`: scaffold a new run directory
 - `scripts/run_demo.py`: local demo generator
 - `demo/simple-demo/`: example output
-- `runs/2026-03-10-self-mirror/`: canonical real run for the theme `自己と鏡像`
-- `tasks/`: project planning, review, and lessons captured during development
+
+Local-only orchestration files and ad hoc run outputs can exist outside the public snapshot, but the public repository keeps the reusable skill surface small.
 
 ## Quick Start
 

@@ -2,5 +2,6 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Local-only auxiliary run produced during parallel exploration.
-runs/2026-03-10-jiko-to-kyozo/
+AGENTS.md
+runs/
+tasks/
