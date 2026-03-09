@@ -1,0 +1,4 @@
+artifact_id,node_id,cache_row_id,source_url,canonical_url,title,filter_status,filter_reason,distilled_summary,confidence,report_section
+A01,N01,CQ01,https://example.com/shinjuku-ramen,https://example.com/shinjuku-ramen,Late Night Ramen in Shinjuku,keep,Relevant late-night comparison source,Shinjuku is a promising late-night ramen branch for travelers.,provisional,Distilled Findings
+A02,N00,CQ02,https://example.com/tokyo-ramen,https://example.com/tokyo-ramen,Tokyo Ramen for Night Owls,keep,Useful city-level overview,Tokyo-wide overview supports Shinjuku as one good late-night area.,provisional,Distilled Findings
+A03,N02,,,,Tokyo Station branch,defer,Not explored in the simple demo,,open,Deferred Paths

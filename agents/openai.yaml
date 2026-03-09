@@ -1,0 +1,16 @@
+interface:
+  display_name: "Expand Search"
+  short_description: "Simple search loop with CSV cache and Markdown report"
+  default_prompt: "Use $expand-search to turn this query into a few root search nodes, cache raw retrieval rows in CSV, filter the useful ones, and write a short Markdown report."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "exa"
+      description: "Broad retrieval for a small set of root queries"
+    - type: "mcp"
+      value: "playwright"
+      description: "Deterministic browser navigation when a search result needs page-level confirmation"
+
+policy:
+  allow_implicit_invocation: true

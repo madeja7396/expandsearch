@@ -1,0 +1,4 @@
+node_id,question,branch_family,status,priority
+N00,Best ramen in Tokyo for late-night travelers,scope,active,high
+N01,Shinjuku late-night ramen options,comparison,cached,medium
+N02,Late-night ramen near Tokyo Station,comparison,open,medium

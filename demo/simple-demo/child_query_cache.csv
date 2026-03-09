@@ -1,0 +1,3 @@
+cache_row_id,node_id,query_text,provider,rank,url,title,snippet,retrieved_at
+CQ01,N01,Shinjuku late night ramen best,exa,1,https://example.com/shinjuku-ramen,Late Night Ramen in Shinjuku,Guide to several shops open after midnight.,2026-03-10T00:00:00Z
+CQ02,N00,Tokyo late night ramen travelers,exa,2,https://example.com/tokyo-ramen,Tokyo Ramen for Night Owls,Overview of several neighborhoods with late-night shops.,2026-03-10T00:05:00Z
