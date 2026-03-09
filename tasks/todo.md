@@ -3,23 +3,25 @@
 ## 2026-03-10 Release
 
 ### Scope Decisions
-- [ ] Publish this project as a standalone git repository rooted at `/mnt/d/dev/expandsearch`.
-- [ ] Keep the public snapshot focused on the skill, references, demo, scripts, tasks, and the canonical `self-mirror` run.
-- [ ] Exclude accidental local-only artifacts from the initial public commit.
+- [x] Publish this project as a standalone git repository rooted at `/mnt/d/dev/expandsearch`.
+- [x] Keep the public snapshot focused on the skill, references, demo, scripts, tasks, and the canonical `self-mirror` run.
+- [x] Exclude accidental local-only artifacts from the initial public commit.
 
 ### Implementation
-- [ ] Add minimal publication files needed for a public repo.
-- [ ] Initialize a standalone git repository for this project.
-- [ ] Stage the intended files and create a release commit.
-- [ ] Configure a public remote if the environment provides a valid target.
+- [x] Add minimal publication files needed for a public repo.
+- [x] Initialize a standalone git repository for this project.
+- [x] Stage the intended files and create a release commit.
+- [x] Configure a public remote if the environment provides a valid target.
 
 ### Validation
-- [ ] Confirm the repo can be committed cleanly from its own root without depending on the broken parent git tree.
-- [ ] Confirm the committed tree includes the canonical run and excludes the auxiliary local-only run.
-- [ ] Confirm whether push/publication succeeded or record the exact blocker.
+- [x] Confirm the repo can be committed cleanly from its own root without depending on the broken parent git tree.
+- [x] Confirm the committed tree includes the canonical run and excludes the auxiliary local-only run.
+- [x] Confirm whether push/publication succeeded or record the exact blocker.
 
 ### Review
-- Pending.
+- Public repo: https://github.com/madeja7396/expandsearch
+- Release commit: `804cd67` (`Initial publish of expand-search skill`)
+- Publication notes: created a standalone repo at `/mnt/d/dev/expandsearch`, added `README.md` and `.gitignore`, pushed `main`, and kept the auxiliary run `runs/2026-03-10-jiko-to-kyozo/` local-only via ignore rules.
 
 ## 2026-03-10 Run: 自己と鏡像
 

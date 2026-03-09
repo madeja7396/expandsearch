@@ -9,3 +9,4 @@
 - Global installation should copy only the essential skill files, not project-only folders like `tasks/` or `demo/`.
 - For theme-led humanities runs, avoid collapsing the report into one canonical theory; pair optical mirror sources with relational mirroring and a philosophical baseline.
 - Put `(node/cache/artifact)` references directly into `report.md` when the goal is an auditable exploratory search rather than a polished essay.
+- If a mounted drive has a broken parent `.git`, stop git discovery with a project-local repo and avoid relying on the parent tree for release work.
